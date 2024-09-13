@@ -56,4 +56,5 @@ CREATE TABLE Продажи (
   сотрудник_id INTEGER REFERENCES Сотрудники(id) ON DELETE CASCADE,
   дата_продажи DATE NOT NULL,
   сумма DECIMAL(10, 2)
-);```
+);
+```
